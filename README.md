@@ -6,6 +6,5 @@ Classification models that were trained with a paediatric sample of the Portugue
 This set of models corresponds to the best ten models acquired during the work of Correia et al. and they are able to predict the classification of individuals as FH-positive or FH-negative with a sensitivity range of 0.73-0.91 and a specificity range of 0.60-0.92.
 
 ## Usage
-Each model can be downloaded as .rda file and then can be applyied to a new dataset using the code within the provided R script.
-For this R installation is necessary and can be done by following the instructions of CRAN site (http://cran.radicaldevelop.com/).
+Each model can be downloaded as .rda file and then can be applyied to a new dataset using the code within the provided R script. For this R installation is necessary and can be done by following the instructions of CRAN site (http://cran.radicaldevelop.com/).
 
