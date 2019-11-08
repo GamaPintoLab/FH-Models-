@@ -12,6 +12,7 @@ For application of these models to new data R installation is necessary and that
  - no missing values 
  - present the same parameters of the model(s) to apply (check if the parameters of the list bellow are present in your dataset, according to the model(s) you want to apply on your data)
 
+
 Imp_B: LDL-C, ApoB/ApoA1, TG/ApoB	
 
 RFEct_BL: TG/ApoB, TC/HDL-C, TC, LDL1	
