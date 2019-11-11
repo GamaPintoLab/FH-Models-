@@ -12,23 +12,17 @@ For application of these models to new data R installation is necessary and that
  - no missing values 
  - present the same parameters of the model(s) to apply (check if the parameters of the list bellow are present in your dataset, according to the model(s) you want to apply on your data)
 
-
 Imp_B: LDL-C, ApoB/ApoA1, TG/ApoB	
-
 RFEct_BL: TG/ApoB, TC/HDL-C, TC, LDL1	
-
 Sel3: LDL1, ApoC3, TC/HDL-C, BMI, Age	
-
 RFEct_A: LDL1, TC, ApoA2, MIDC, TC/HDL-C	
-
 RFE78ct_BL: TC, TC/HDL-C, MIDB, MIDC, LDL1	
-
 RFE78t_B: LDL-C, ApoB/ApoA1	
-
 Sel1: LDL1, ApoC3, TC/HDL-C	
-
 Imp_AdL: ApoA2, ApoC3, LDL1	
-
 RFE78t_Ad: ApoA2, ApoC2, ApoC3, sdLDL.Day, BMI
-
 RFE78ct_Ad: Age, ApoA2, ApoC2, ApoC3, sdLDL.Day
+
+## Contacts
+For any doubts regarding the models and their application on new data using R, feel free to send an e-mail for mscorreia@fc.ul.pt
+
