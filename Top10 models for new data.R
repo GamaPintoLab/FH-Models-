@@ -40,6 +40,11 @@ Pred <- predict(Sel1, newdata = "newdata") #newdata = "name of the data.frame wi
 
 Pred_class <- cbind(newdata, Pred) #add predictions as an extra column in data table
 
+Pred_class #show table as output 
+
+library(openxlsx)
+write.xlsx(Pred_class, "C:/Users/MARTA/Desktop/Top10_models/Pred_class.xlsx") #export table 'Pred_class' as an excel file
+
 
 #Use similar code for predictions using the other models
 
