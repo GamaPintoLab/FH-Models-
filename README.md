@@ -6,10 +6,10 @@ Classification models that were trained with a paediatric sample of the Portugue
 This set of models corresponds to the best ten models acquired during the work of Correia et al. and they are able to predict the classification of individuals as FH-positive or FH-negative with a sensitivity range of 0.73-0.91 and a specificity range of 0.60-0.92.
 
 ## Usage
-# Applying the two best models and SB_B to classify new patients using the excel file 'Classify_FH_new'
+### Applying the two best models and SB_B to classify new patients using the excel file 'Classify_FH_new'
 Download the excel file 'Classify_FH_new' and insert the measures of new individuals for the given parameters, this will apply the formula of the choosen model to new data and classify those individuals as FH-positive or FH-negative (class '1' or class '2', respectively).  
 
-# Applying Top10 models to new data using R
+### Applying Top10 models to new data using R
 For application of these models to new data R installation is necessary. This can be done by following the instructions in the CRAN website (http://cran.radicaldevelop.com/). The working directory should be changed to the folder containing the data and the downloaded files. 
 Each model can be downloaded as a .rda file and be applyed to classify individuals in a new dataset using the code in the R script 'Top10 models for new data'. The new data should be organized as a table in an .xlsx file, according the following rules (see example file test.xlsx): 
  - patients as rows and measured parameters as columns
