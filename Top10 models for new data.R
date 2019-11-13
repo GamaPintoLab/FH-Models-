@@ -33,6 +33,9 @@ str(newdata) #check if all parameters are considered numeric and if 'newdata' is
 
 attach(newdata) #put parameters of newdata available for predictions
 
+library(tibble)
+newdata <- column_to_rownames(newdata, var = "ID") #patients IDs must be set as rownames
+
 
 ## Make predictions for new data
 
