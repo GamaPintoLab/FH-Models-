@@ -4,7 +4,7 @@
 
 ##--------------------------------------------------------------------------------##
 
-## Set directory - the same folder to which rda files were downloaded 
+## Set directory to the folder which contains the data and downloaded rda files 
 
 setwd("C:/Users/MARTA/Desktop/Top10_models") #example
 
