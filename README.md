@@ -16,9 +16,15 @@ Each model can be downloaded as a .rda file and be applyed to classify individua
  - measured parameters as numeric values using . as decimal separator
  - no missing values 
  - have the parameters required by the model to apply (check the parameters in the list bellow)
-
+ 
+ 
+Models are organized in three different folders according the lipid parameters they use:
+#### Folder A - models using only 'Basic' parameters
 Imp_B: LDL-C, ApoB/ApoA1, TG/ApoB	
 
+RFE78t_B: LDL-C, ApoB/ApoA1	
+
+#### Folder B - models using 'Basic' parameters together with parameters of 'Advanced' and/or 'Lipoprint' profiles
 RFEct_BL: TG/ApoB, TC/HDL-C, TC, LDL1	
 
 Sel3: LDL1, ApoC3, TC/HDL-C, BMI, Age	
@@ -27,15 +33,15 @@ RFEct_A: LDL1, TC, ApoA2, MIDC, TC/HDL-C
 
 RFE78ct_BL: TC, TC/HDL-C, MIDB, MIDC, LDL1	
 
-RFE78t_B: LDL-C, ApoB/ApoA1	
-
 Sel1: LDL1, ApoC3, TC/HDL-C	
 
+#### Folder C - models using ‘Advanced’ parameters only or together with LDL1 from ‘Lipoprint’ profile
 Imp_AdL: ApoA2, ApoC3, LDL1	
 
 RFE78t_Ad: ApoA2, ApoC2, ApoC3, sdLDL.Day, BMI
 
 RFE78ct_Ad: Age, ApoA2, ApoC2, ApoC3, sdLDL.Day
+
 
 ## Contacts
 For any questions regarding the models and their application on new data using R, feel free to send an e-mail to mscorreia@fc.ul.pt
